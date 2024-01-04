@@ -1,1 +1,57 @@
 /* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h1,
+p,
+a,
+img,
+div{
+    display:block;
+    width: 80%;
+    margin: auto;
+    animation: fadeIn 5s;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    width: 80%;
+    background-color: red;
+    
+}
+
+a {
+    color: green;
+    background-color: bisque;
+}
+p {
+    background-color: aqua;
+    width: 100%;
+    font-size: 22px;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+ul,
+ul li{
+    border-color: black;
+    border-width: 4px;
+    background-color: antiquewhite;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ol,
+ol li{
+    background-color: aquamarine;
+    font-weight: 600;
+}
+img{
+    width: 400;
+    height: auto;
+}
